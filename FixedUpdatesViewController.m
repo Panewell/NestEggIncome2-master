@@ -14,6 +14,21 @@
 
 @implementation FixedUpdatesViewController
 
+@synthesize txtFUSource;
+@synthesize txtFUPayments;
+@synthesize txtFUJan;
+@synthesize txtFUFeb;
+@synthesize txtFUMar;
+@synthesize txtFUApr;
+@synthesize txtFUMay;
+@synthesize txtFUJun;
+@synthesize txtFUJul;
+@synthesize txtFUAug;
+@synthesize txtFUSep;
+@synthesize txtFUOct;
+@synthesize txtFUNov;
+@synthesize txtFUDec;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

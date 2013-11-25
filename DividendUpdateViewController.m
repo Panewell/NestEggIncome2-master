@@ -14,6 +14,24 @@
 
 @implementation DividendUpdateViewController
 
+@synthesize txtDUSource;
+@synthesize txtDUPayments;
+@synthesize txtDUBalance;
+@synthesize txtDURate;
+@synthesize txtDUJan;
+@synthesize txtDUFeb;
+@synthesize txtDUMar;
+@synthesize txtDUApr;
+@synthesize txtDUMay;
+@synthesize txtDUJun;
+@synthesize txtDUJul;
+@synthesize txtDUAug;
+@synthesize txtDUSep;
+@synthesize txtDUOct;
+@synthesize txtDUNov;
+@synthesize txtDUDec;
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

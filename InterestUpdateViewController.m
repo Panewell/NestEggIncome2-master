@@ -14,6 +14,24 @@
 
 @implementation InterestUpdateViewController
 
+@synthesize txtIUSource;
+@synthesize txtIUPayments;
+@synthesize txtIUBalance;
+@synthesize txtIURate;
+@synthesize txtIUJan;
+@synthesize txtIUFeb;
+@synthesize txtIUMar;
+@synthesize txtIUApr;
+@synthesize txtIUMay;
+@synthesize txtIUJun;
+@synthesize txtIUJul;
+@synthesize txtIUAug;
+@synthesize txtIUSep;
+@synthesize txtIUOct;
+@synthesize txtIUNov;
+@synthesize txtIUDec;
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
