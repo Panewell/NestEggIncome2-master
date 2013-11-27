@@ -1146,7 +1146,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k5A-xI-9VV">
-                                <rect key="frame" x="0.0" y="61" width="321" height="507"/>
+                                <rect key="frame" x="-1" y="61" width="321" height="507"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="October" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BE-Fi-xjI">
@@ -1190,7 +1190,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="VZS-Oc-Fev"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEndOnExit" id="kY1-Lt-22K"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEnd" id="u2y-SP-dYp"/>
+                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="pLx-tX-VKh"/>
                                         </connections>
                                     </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Source" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yud-MK-Vgg">
@@ -1206,7 +1208,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="d8c-NC-V2c"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEnd" id="eLm-Gr-1WZ"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEndOnExit" id="f0i-O7-faB"/>
+                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="Ftn-tA-63c"/>
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ewf-9W-Swi" userLabel="txtFUJan">
@@ -1215,7 +1219,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="78K-TX-zFF"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEnd" id="0du-7g-Amc"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEndOnExit" id="oak-re-GZF"/>
+                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="1Xg-7p-VCA"/>
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A6k-cD-aII" userLabel="txtFUSource">
@@ -1225,7 +1231,9 @@
                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="yAz-7Q-4UP"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEndOnExit" id="Vea-kd-wdG"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEnd" id="fZb-Ab-o2d"/>
+                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="wwG-eZ-D2h"/>
                                         </connections>
                                     </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="December" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BNf-ad-qty">
@@ -1248,7 +1256,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="QrG-Y4-pCB"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEnd" id="TiO-iF-i5T"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEndOnExit" id="eUC-T1-d1h"/>
+                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="Efe-YT-i3C"/>
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DDi-5c-eF4" userLabel="txtFUApr">
@@ -1257,7 +1267,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="zOj-bE-l5E"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEndOnExit" id="5lY-v9-pxh"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEnd" id="8GG-pT-IoG"/>
+                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="g0U-eY-Wk4"/>
                                         </connections>
                                     </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Payment Amount" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arO-zr-UrN">
@@ -1287,7 +1299,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="jej-su-ouK"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEnd" id="hf0-q6-qcy"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEndOnExit" id="pkC-Ps-sBd"/>
+                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="D0U-t0-6tD"/>
                                         </connections>
                                     </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="January" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3m-gL-elZ">
@@ -1318,7 +1332,9 @@
                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="15T-sd-ziq"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEndOnExit" id="uqU-BA-8cM"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEnd" id="vAY-eu-6XX"/>
+                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="1FG-VA-LJG"/>
                                         </connections>
                                     </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="September" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTX-r5-feP">
@@ -1334,7 +1350,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="ub3-34-2Dh"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEndOnExit" id="fad-8q-Cxl"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEnd" id="pdP-Bm-6p1"/>
+                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="4Xj-j5-TXQ"/>
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zN5-9p-MFw" userLabel="txtFUMay">
@@ -1343,6 +1361,8 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEnd" id="bio-Zj-laE"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEndOnExit" id="vX6-NU-7KD"/>
                                             <outlet property="delegate" destination="ZfG-W9-6JB" id="eCm-PT-zaI"/>
                                         </connections>
                                     </textField>
@@ -1352,7 +1372,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="6lE-6l-u3t"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEndOnExit" id="Hkt-p7-T4J"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEnd" id="NhB-62-9lV"/>
+                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="mUK-tH-xVP"/>
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lkv-sz-J0d" userLabel="txtFUDec">
@@ -1361,7 +1383,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="WyC-Qc-7ok"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEndOnExit" id="FpM-zs-8PN"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEnd" id="fvc-5J-SUw"/>
+                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="shX-Ld-EjR"/>
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FgR-m5-RCV" userLabel="txtFUSep">
@@ -1370,7 +1394,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="nxU-zY-4df"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEnd" id="AXb-Qy-zKi"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEndOnExit" id="oKu-L7-5fm"/>
+                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="4YW-ur-03R"/>
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fsi-3y-DKn" userLabel="txtFUNov">
@@ -1379,10 +1405,16 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="cvJ-yX-Oby"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEndOnExit" id="O3r-LB-w9i"/>
+                                            <action selector="doneEditing:" destination="ZfG-W9-6JB" eventType="editingDidEnd" id="Tns-by-DmY"/>
+                                            <outlet property="delegate" destination="ZfG-W9-6JB" id="94a-Eg-7Lw"/>
                                         </connections>
                                     </textField>
                                 </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="ZfG-W9-6JB" id="cqX-DF-Kwc"/>
+                                </connections>
                             </scrollView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gun-wS-5Dp">
                                 <rect key="frame" x="0.0" y="17" width="320" height="44"/>
@@ -1396,11 +1428,13 @@
                                     <navigationItem title="Fixed Update" id="3Rx-xE-IdK">
                                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="BPW-78-3LL" userLabel="btnFUCancel">
                                             <connections>
+                                                <action selector="btnCancel:" destination="ZfG-W9-6JB" id="HKV-Ws-YV2"/>
                                                 <segue destination="7NW-U9-VJa" kind="modal" id="F4q-RG-es8"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="akJ-Dw-d1x" userLabel="btnFUSave">
                                             <connections>
+                                                <action selector="btnSave:" destination="ZfG-W9-6JB" id="FlV-Cg-cgM"/>
                                                 <segue destination="7NW-U9-VJa" kind="modal" id="teH-E0-WJ9"/>
                                             </connections>
                                         </barButtonItem>
@@ -1411,9 +1445,23 @@
                         <color key="backgroundColor" red="1" green="1" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="txtFUJan" destination="Ewf-9W-Swi" id="sfi-JL-olz"/>
-                        <outlet property="txtFUPayment" destination="9ac-Im-9bi" id="zTT-wt-PB8"/>
+                        <outlet property="btnSave" destination="akJ-Dw-d1x" id="77o-Ks-u69"/>
+                        <outlet property="scrollview" destination="k5A-xI-9VV" id="fxN-Et-Zxp"/>
+                        <outlet property="txtFUAmount" destination="9ac-Im-9bi" id="ySM-Ka-VFE"/>
+                        <outlet property="txtFUApr" destination="DDi-5c-eF4" id="pOm-AH-1gg"/>
+                        <outlet property="txtFUAug" destination="Kav-su-kgZ" id="a8T-pv-9Wx"/>
+                        <outlet property="txtFUDec" destination="lkv-sz-J0d" id="cLd-Ah-sJB"/>
+                        <outlet property="txtFUFeb" destination="kBe-Di-jmU" id="dRW-gS-mRO"/>
+                        <outlet property="txtFUJan" destination="Ewf-9W-Swi" id="Nii-kh-97J"/>
+                        <outlet property="txtFUJul" destination="YJ9-T1-K0K" id="CxX-5K-82h"/>
+                        <outlet property="txtFUJun" destination="vec-Xv-kg8" id="UMS-Nm-yux"/>
+                        <outlet property="txtFUMar" destination="aWY-mt-vRl" id="ALB-M8-UfW"/>
+                        <outlet property="txtFUMay" destination="zN5-9p-MFw" id="LdG-uF-f4f"/>
+                        <outlet property="txtFUNov" destination="Fsi-3y-DKn" id="YvI-iH-zwp"/>
+                        <outlet property="txtFUOct" destination="51S-Ge-nuv" id="NXq-ya-gLl"/>
+                        <outlet property="txtFUSep" destination="FgR-m5-RCV" id="HmL-2Z-fg5"/>
                         <outlet property="txtFUSource" destination="A6k-cD-aII" id="GuN-dZ-4wj"/>
+                        <outlet property="txtFuSource" destination="A6k-cD-aII" id="kJj-V3-CIP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hOh-ng-1eX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1487,12 +1535,12 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="G8t-0q-tE5"/>
         <segue reference="clq-ua-ZGR"/>
-        <segue reference="87h-9O-Oc2"/>
-        <segue reference="t44-ym-Lzs"/>
-        <segue reference="Ihv-H7-wNq"/>
+        <segue reference="G8t-0q-tE5"/>
         <segue reference="teH-E0-WJ9"/>
-        <segue reference="GkE-MC-2Lo"/>
+        <segue reference="OJM-0o-eOP"/>
+        <segue reference="Ihv-H7-wNq"/>
+        <segue reference="t44-ym-Lzs"/>
+        <segue reference="87h-9O-Oc2"/>
     </inferredMetricsTieBreakers>
 </document>
