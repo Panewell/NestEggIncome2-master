@@ -10,11 +10,11 @@
 
 @interface FixedUpdatesViewController : UIViewController
 @property (strong) NSManagedObject *loandb;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *btnSave;
 
 - (IBAction)btnSave:(id)sender;
-
-@property (strong, nonatomic) IBOutlet UIBarButtonItem *btnSave;
-@property (strong, nonatomic) IBOutlet UITextField *txtFuSource;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *btnFUSave;
+@property (strong, nonatomic) IBOutlet UITextField *txtFUSource;
 @property (strong, nonatomic) IBOutlet UITextField *txtFUAmount;
 @property (strong, nonatomic) IBOutlet UITextField *txtFUJan;
 @property (strong, nonatomic) IBOutlet UITextField *txtFUFeb;
@@ -28,11 +28,11 @@
 @property (strong, nonatomic) IBOutlet UITextField *txtFUOct;
 @property (strong, nonatomic) IBOutlet UITextField *txtFUNov;
 @property (strong, nonatomic) IBOutlet UITextField *txtFUDec;
-- (IBAction)btnCancel:(id)sender;
+- (IBAction)btnFUCancle:(id)sender;
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollview;
 -(IBAction) doneEditing:(id) sender;
 
-@property (weak, nonatomic) IBOutlet UITextField *txtFUBalance;
-@property (weak, nonatomic) IBOutlet UITextField *txtFURate;
+//@property (weak, nonatomic) IBOutlet UITextField *txtFUBalance;
+//@property (weak, nonatomic) IBOutlet UITextField *txtFURate;
 
 @end

@@ -13,8 +13,11 @@
 @end
 
 @implementation FixedUpdatesViewController
-@synthesize loandb,Source,Amount,jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec,scrollview,btnSave;
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+
+@synthesize loandb,txtFUAmount,txtFUSource,txtFUJan,txtFUFeb,txtFUMar,txtFUApr,txtFUMay,txtFUJun,txtFUJul,txtFUAug,txtFUSep,txtFUOct,txtFUNov,txtFUDec,scrollview,btnFUSave;
+
+
+    - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
@@ -29,22 +32,21 @@
     [super viewDidLoad];
     
     if (self.loandb) {
-        [self.Source setText:[self.loandb valueForKey:@"source"]];
-        [self.Amount setText:[self.loandb valueForKey:@"amount"]];
-        [self.jan setText:[self.loandb valueForKey:@"jan"]];
-        [self.feb setText:[self.loandb valueForKey:@"feb"]];
-        [self.mar setText:[self.loandb valueForKey:@"mar"]];
-        [self.apr setText:[self.loandb valueForKey:@"apr"]];
-        [self.may setText:[self.loandb valueForKey:@"may"]];
-        [self.jun setText:[self.loandb valueForKey:@"jun"]];
-        [self.jul setText:[self.loandb valueForKey:@"jan"]];
-        [self.aug setText:[self.loandb valueForKey:@"feb"]];
-        [self.sep setText:[self.loandb valueForKey:@"mar"]];
-        [self.oct setText:[self.loandb valueForKey:@"apr"]];
-        [self.nov setText:[self.loandb valueForKey:@"may"]];
-        [self.dec setText:[self.loandb valueForKey:@"jun"]];
-        [btnSave setTitle:@"Update" forState:UIControlStateNormal];
+        [self.txtFUSource setText:[self.loandb valueForKey:@"source"]];
+        [self.txtFUAmount setText:[self.loandb valueForKey:@"amount"]];
+        [self.txtFUJan setText:[self.loandb valueForKey:@"jan"]];
+        [self.txtFUFeb setText:[self.loandb valueForKey:@"feb"]];
+        [self.txtFUMar setText:[self.loandb valueForKey:@"mar"]];
+        [self.txtFUApr setText:[self.loandb valueForKey:@"apr"]];
+        [self.txtFUMay setText:[self.loandb valueForKey:@"may"]];
+        [self.txtFUJun setText:[self.loandb valueForKey:@"jun"]];
+        [self.txtFUAug setText:[self.loandb valueForKey:@"aug"]];
+        [self.txtFUSep setText:[self.loandb valueForKey:@"sep"]];
+        [self.txtFUOct setText:[self.loandb valueForKey:@"oct"]];
+        [self.txtFUNov setText:[self.loandb valueForKey:@"nov"]];
+        [self.txtFUDec setText:[self.loandb valueForKey:@"dec"]];
         
+        //[btnFUSave setTitle:@"Update" forState:UIControlStateNormal];
         
     }
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]
@@ -60,23 +62,23 @@
     // Do any additional setup after loading the view.
     
     
-    
+
 }
 -(void)dismissKeyboard {
-    [Source resignFirstResponder];
-    [Amount resignFirstResponder];
-    [jan resignFirstResponder];
-    [feb resignFirstResponder];
-    [mar resignFirstResponder];
-    [apr resignFirstResponder];
-    [may resignFirstResponder];
-    [jun resignFirstResponder];
-    [jul resignFirstResponder];
-    [aug resignFirstResponder];
-    [sep resignFirstResponder];
-    [oct resignFirstResponder];
-    [nov resignFirstResponder];
-    [dec resignFirstResponder];
+    [txtFUSource resignFirstResponder];
+    [txtFUAmount resignFirstResponder];
+    [txtFUJan resignFirstResponder];
+    [txtFUFeb resignFirstResponder];
+    [txtFUMar resignFirstResponder];
+    [txtFUApr resignFirstResponder];
+    [txtFUMay resignFirstResponder];
+    [txtFUJun resignFirstResponder];
+    [txtFUJul resignFirstResponder];
+    [txtFUAug resignFirstResponder];
+    [txtFUSep resignFirstResponder];
+    [txtFUOct resignFirstResponder];
+    [txtFUNov resignFirstResponder];
+    [txtFUDec resignFirstResponder];
 
 }
 -(IBAction) doneEditing:(id) sender {
@@ -105,42 +107,42 @@
     if (self.loandb) {
         // Update existing device
         
-        [self.loandb setValue:self.Source.text forKey:@"source"];
-        [self.loandb setValue:self.PayAmount.text forKey:@"amount"];
-        mo = [self.jan.text doubleValue];
+        [self.loandb setValue:self.txtFUSource.text forKey:@"source"];
+        [self.loandb setValue:self.txtFUAmount.text forKey:@"amount"];
+        mo = [self.txtFUJan.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [self.loandb setValue:OnorOff forKey:@"jan"];
-        mo = [self.feb.text doubleValue];
+        mo = [self.txtFUFeb.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [self.loandb setValue:OnorOff forKey:@"feb"];
-        mo = [self.mar.text doubleValue];
+        mo = [self.txtFUMar.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [self.loandb setValue:OnorOff forKey:@"mar"];
-        mo = [self.apr.text doubleValue];
+        mo = [self.txtFUApr.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [self.loandb setValue:OnorOff forKey:@"apr"];
-        mo = [self.may.text doubleValue];
+        mo = [self.txtFUMay.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [self.loandb setValue:OnorOff forKey:@"may"];
-        mo = [self.jun.text doubleValue];
+        mo = [self.txtFUJun.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [self.loandb setValue:OnorOff forKey:@"jun"];
-        mo = [self.jul.text doubleValue];
+        mo = [self.txtFUJul.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [self.loandb setValue:OnorOff forKey:@"jul"];
-        mo = [self.aug.text doubleValue];
+        mo = [self.txtFUAug.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [self.loandb setValue:OnorOff forKey:@"aug"];
-        mo = [self.sep.text doubleValue];
+        mo = [self.txtFUSep.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [self.loandb setValue:OnorOff forKey:@"sep"];
-        mo = [self.oct.text doubleValue];
+        mo = [self.txtFUOct.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
-        [self.loandb setValue:OnorOff forKey:@"oct"];  mo = [self.PayAmount.text doubleValue];
-        mo = [self.nov.text doubleValue];
+        [self.loandb setValue:OnorOff forKey:@"oct"];  mo = [self.txtFUAmount.text doubleValue];
+        mo = [self.txtFUNov.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [self.loandb setValue:OnorOff forKey:@"nov"];
-        mo = [self.dec.text doubleValue];
+        mo = [self.txtFUDec.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [self.loandb setValue:OnorOff forKey:@"dec"];
         
@@ -148,54 +150,54 @@
     } else {
         // Create a new device
         NSManagedObject *newDevice = [NSEntityDescription insertNewObjectForEntityForName:@"Tblfix" inManagedObjectContext:context];
-        [newDevice setValue:self.Source.text forKey:@"source"];
-        [newDevice setValue:self.PayAmount.text forKey:@"amount"];
-        [newDevice setValue:self.jan.text forKey:@"jan"];
-        [newDevice setValue:self.feb.text forKey:@"feb"];
-        [newDevice setValue:self.mar.text forKey:@"mar"];
-        [newDevice setValue:self.apr.text forKey:@"apr"];
-        [newDevice setValue:self.may.text forKey:@"may"];
-        [newDevice setValue:self.jun.text forKey:@"jun"];
-        [newDevice setValue:self.jul.text forKey:@"jul"];
-        [newDevice setValue:self.aug.text forKey:@"aug"];
-        [newDevice setValue:self.sep.text forKey:@"sep"];
-        [newDevice setValue:self.oct.text forKey:@"oct"];
-        [newDevice setValue:self.nov.text forKey:@"nov"];
-        [newDevice setValue:self.dec.text forKey:@"dec"];
-        mo = [self.jan.text doubleValue];
+        [newDevice setValue:self.txtFUSource.text forKey:@"source"];
+        [newDevice setValue:self.txtFUAmount.text forKey:@"amount"];
+        [newDevice setValue:self.txtFUJan.text forKey:@"jan"];
+        [newDevice setValue:self.txtFUFeb.text forKey:@"feb"];
+        [newDevice setValue:self.txtFUMar.text forKey:@"mar"];
+        [newDevice setValue:self.txtFUApr.text forKey:@"apr"];
+        [newDevice setValue:self.txtFUMay.text forKey:@"may"];
+        [newDevice setValue:self.txtFUJun.text forKey:@"jun"];
+        [newDevice setValue:self.txtFUJul.text forKey:@"jul"];
+        [newDevice setValue:self.txtFUAug.text forKey:@"aug"];
+        [newDevice setValue:self.txtFUSep.text forKey:@"sep"];
+        [newDevice setValue:self.txtFUOct.text forKey:@"oct"];
+        [newDevice setValue:self.txtFUNov.text forKey:@"nov"];
+        [newDevice setValue:self.txtFUDec.text forKey:@"dec"];
+        mo = [self.txtFUJan.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [newDevice setValue:OnorOff forKey:@"jan"];
-        mo = [self.feb.text doubleValue];
+        mo = [self.txtFUFeb.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [newDevice setValue:OnorOff forKey:@"feb"];
-        mo = [self.mar.text doubleValue];
+        mo = [self.txtFUMar.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [newDevice setValue:OnorOff forKey:@"mar"];
-        mo = [self.apr.text doubleValue];
+        mo = [self.txtFUApr.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [newDevice setValue:OnorOff forKey:@"apr"];
-        mo = [self.may.text doubleValue];
+        mo = [self.txtFUMay.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [newDevice setValue:OnorOff forKey:@"may"];
-        mo = [self.jun.text doubleValue];
+        mo = [self.txtFUJun.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [newDevice setValue:OnorOff forKey:@"jun"];
-        mo = [self.jul.text doubleValue];
+        mo = [self.txtFUJul.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [newDevice setValue:OnorOff forKey:@"jul"];
-        mo = [self.aug.text doubleValue];
+        mo = [self.txtFUAug.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [newDevice setValue:OnorOff forKey:@"aug"];
-        mo = [self.sep.text doubleValue];
+        mo = [self.txtFUSep.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [newDevice setValue:OnorOff forKey:@"sep"];
-        mo = [self.oct.text doubleValue];
+        mo = [self.txtFUOct.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
-        [newDevice setValue:OnorOff forKey:@"oct"];  mo = [self.PayAmount.text doubleValue];
-        mo = [self.nov.text doubleValue];
+        [newDevice setValue:OnorOff forKey:@"oct"];  mo = [self.txtFUAmount.text doubleValue];
+        mo = [self.txtFUNov.text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [newDevice setValue:OnorOff forKey:@"nov"];
-        mo = [self.dec.text doubleValue];
+        mo = [self.txtFUDec. text doubleValue];
         OnorOff = [[NSString alloc] initWithFormat:@"%d", mo];
         [newDevice setValue:OnorOff forKey:@"dec"];
         
@@ -210,10 +212,11 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (IBAction)btnCancel:(id)sender:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+-(IBAction)btnFUCancle:(id)sender:(id)sender
+ [self dismissViewControllerAnimated:YES completion:nil];
+
     
-}
+
 - (void)textFieldDidBeginEditing:(UITextField *)textField {
     CGPoint scrollPoint = CGPointMake(0, textField.frame.origin.y);
     [scrollview setContentOffset:scrollPoint animated:YES];
@@ -234,4 +237,6 @@
     
     
     
+- (IBAction)btnFUCancle:(id)sender {
+}
     @end

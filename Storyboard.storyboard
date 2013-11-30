@@ -80,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3ZP-Bc-Cub" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1083" y="-1175"/>
+            <point key="canvasLocation" x="-1299" y="-2583"/>
         </scene>
         <!--Interest Update View Controller - InterestUpdate-->
         <scene sceneID="ul3-lh-Z6R">
@@ -112,43 +112,6 @@
                                         <color key="textColor" red="0.88235294119999996" green="0.18823529410000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g1S-kU-Rf0" userLabel="txtIUBalance">
-                                        <rect key="frame" x="150" y="96" width="150" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="Kv6-YF-4sc"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IIf-XK-HuB" userLabel="txtIUJun">
-                                        <rect key="frame" x="93" y="395" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="uOr-R9-bK6"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hGR-Lb-ocS" userLabel="txtIUDec">
-                                        <rect key="frame" x="269" y="395" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="MDY-ea-D0X"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5jc-zV-DRH" userLabel="txtIUFeb">
-                                        <rect key="frame" x="94" y="263" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="Nmc-Oq-o4d"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="October" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vck-W9-qgT">
                                         <rect key="frame" x="177" y="333" width="63" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -156,34 +119,6 @@
                                         <color key="textColor" red="0.88235294119999996" green="0.18823529410000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rZ4-kn-jC0" userLabel="txtIUAug">
-                                        <rect key="frame" x="270" y="263" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="SMS-pj-Leg"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cVy-eY-pTO" userLabel="txtIUApr">
-                                        <rect key="frame" x="94" y="329" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="FUR-kf-NLh"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f2g-M6-EQX" userLabel="txtIURate">
-                                        <rect key="frame" x="150" y="134" width="150" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="pBr-zX-i0V"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="July" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMn-hH-U8P">
                                         <rect key="frame" x="177" y="234" width="31" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -191,15 +126,6 @@
                                         <color key="textColor" red="0.88235294119999996" green="0.18823529410000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nmD-hY-dcY" userLabel="txtIUMay">
-                                        <rect key="frame" x="93" y="362" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="qbh-G5-AcX"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="June" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKK-uf-lki">
                                         <rect key="frame" x="20" y="399" width="38" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -214,25 +140,6 @@
                                         <color key="textColor" red="1" green="0.18823529410000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bog-6Z-0iD" userLabel="txtIUSep">
-                                        <rect key="frame" x="270" y="296" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="kBz-sJ-ibS"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xJX-65-awv" userLabel="txtIUSource">
-                                        <rect key="frame" x="93" y="20" width="207" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="MBe-5B-fNK"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="January" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jJA-NE-pBO">
                                         <rect key="frame" x="20" y="234" width="61" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -240,15 +147,6 @@
                                         <color key="textColor" red="0.88235294119999996" green="0.18823529410000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="spm-mr-eam" userLabel="txtIUOct">
-                                        <rect key="frame" x="270" y="329" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="3WI-In-CvL"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Source" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcI-Zi-8Re">
                                         <rect key="frame" x="20" y="24" width="61" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -270,15 +168,6 @@
                                         <color key="textColor" red="0.88235294119999996" green="0.18823529410000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iAu-kZ-vKC" userLabel="txtIUNov">
-                                        <rect key="frame" x="269" y="362" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="zwP-xf-nNJ"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Payments Per Year" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dH1-nS-Sim">
                                         <rect key="frame" x="20" y="62" width="153" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -300,15 +189,6 @@
                                         <color key="textColor" red="0.88235294119999996" green="0.18823529410000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qrY-N7-vln" userLabel="txtIUJan">
-                                        <rect key="frame" x="94" y="230" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="7sA-Jy-0r9"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="September" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuJ-yN-JGi">
                                         <rect key="frame" x="177" y="300" width="85" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -337,34 +217,192 @@
                                         <color key="textColor" red="0.88235294119999996" green="0.18823529410000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vvk-cy-3LC" userLabel="txtIUPayments">
-                                        <rect key="frame" x="181" y="58" width="119" height="30"/>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8J5-W5-7jA">
+                                        <rect key="frame" x="-9" y="0.0" width="338" height="445"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="Qxl-4g-qhb"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2ac-kw-q8l" userLabel="txtIUMar">
-                                        <rect key="frame" x="94" y="296" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="CGG-Ll-yx6"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8V1-rt-Xsx" userLabel="txtIUJul">
-                                        <rect key="frame" x="270" y="230" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="eIH-bP-a3S" id="y5p-aF-e3j"/>
-                                        </connections>
-                                    </textField>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xJX-65-awv" userLabel="txtIUSource">
+                                                <rect key="frame" x="111" y="20" width="207" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="h4k-u9-wQf"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="lmM-v5-aDS"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="Hui-GV-xdR"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vvk-cy-3LC" userLabel="txtIUPayments">
+                                                <rect key="frame" x="199" y="58" width="119" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="Q2D-mH-jA7"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="Yyu-TZ-eFM"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="1nA-uM-Zjp"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g1S-kU-Rf0" userLabel="txtIUBalance">
+                                                <rect key="frame" x="168" y="96" width="150" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="Cwz-U4-ZZF"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="dta-9X-oXv"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="36T-0V-Z4A"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f2g-M6-EQX" userLabel="txtIURate">
+                                                <rect key="frame" x="168" y="134" width="150" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="UjC-UP-41t"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="sni-Ga-oEu"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="dzm-7j-GRT"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qrY-N7-vln" userLabel="txtIUJan">
+                                                <rect key="frame" x="112" y="230" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="PJW-sz-Ysq"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="m5P-l9-2tF"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="zAb-hB-SmT"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5jc-zV-DRH" userLabel="txtIUFeb">
+                                                <rect key="frame" x="112" y="263" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="tk2-Zq-UIR"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="w7T-mW-PHw"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="2ao-wb-ZT0"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2ac-kw-q8l" userLabel="txtIUMar">
+                                                <rect key="frame" x="112" y="296" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="Alo-En-Reu"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="aan-Om-PJI"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="JBN-sb-oo4"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cVy-eY-pTO" userLabel="txtIUApr">
+                                                <rect key="frame" x="112" y="329" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="2La-Lf-W57"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="duk-64-lHH"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="vZ4-2L-kPU"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nmD-hY-dcY" userLabel="txtIUMay">
+                                                <rect key="frame" x="111" y="362" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="CrP-N0-Ebg"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="YEp-Sb-iV6"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="GlM-x3-a6r"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IIf-XK-HuB" userLabel="txtIUJun">
+                                                <rect key="frame" x="111" y="395" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="aaG-Cy-pfU"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="sCy-mx-Hk8"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="nzm-MX-3ZO"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8V1-rt-Xsx" userLabel="txtIUJul">
+                                                <rect key="frame" x="288" y="230" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="bVe-9u-FdT"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="uEo-VC-Zu5"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="jAG-I6-9Vd"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rZ4-kn-jC0" userLabel="txtIUAug">
+                                                <rect key="frame" x="288" y="263" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="Y6E-5K-dd9"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="b50-3y-VdY"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="r4S-OK-cfM"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bog-6Z-0iD" userLabel="txtIUSep">
+                                                <rect key="frame" x="288" y="296" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="Iwr-sl-IDo"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="vpo-bk-ssh"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="tGl-GH-IMS"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="spm-mr-eam" userLabel="txtIUOct">
+                                                <rect key="frame" x="288" y="329" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="7fM-Cj-sI8"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="7lS-v3-hNG"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="ur6-cF-sGV"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iAu-kZ-vKC" userLabel="txtIUNov">
+                                                <rect key="frame" x="287" y="362" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="5yK-0y-gRX"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="y9F-dn-2TJ"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="Kk3-DW-uJm"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hGR-Lb-ocS" userLabel="txtIUDec">
+                                                <rect key="frame" x="287" y="395" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEndOnExit" id="cOc-Le-lba"/>
+                                                    <action selector="doneEditing:" destination="eIH-bP-a3S" eventType="editingDidEnd" id="g2c-7f-ser"/>
+                                                    <outlet property="delegate" destination="eIH-bP-a3S" id="5TF-ce-qpl"/>
+                                                </connections>
+                                            </textField>
+                                        </subviews>
+                                    </scrollView>
                                 </subviews>
                             </scrollView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qaF-gy-niv">
@@ -379,11 +417,13 @@
                                     <navigationItem title="Interest Update" id="F7O-Fu-l9t">
                                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="rhF-Ww-Xxu" userLabel="btnIUCancel">
                                             <connections>
+                                                <action selector="btnCancel:" destination="eIH-bP-a3S" id="bg8-0j-MyC"/>
                                                 <segue destination="lbW-9Q-cjh" kind="modal" id="6Tr-Rb-dTN"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="gsx-Da-v6t" userLabel="btnIUSave">
                                             <connections>
+                                                <action selector="btnSave:" destination="eIH-bP-a3S" id="UPB-De-f7O"/>
                                                 <segue destination="lbW-9Q-cjh" kind="modal" id="G8t-0q-tE5"/>
                                             </connections>
                                         </barButtonItem>
@@ -391,30 +431,34 @@
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="txtIUApr" destination="cVy-eY-pTO" id="34a-NZ-9Tv"/>
-                        <outlet property="txtIUAug" destination="rZ4-kn-jC0" id="gls-G1-9NB"/>
-                        <outlet property="txtIUBalance" destination="g1S-kU-Rf0" id="BcK-6I-LfV"/>
-                        <outlet property="txtIUDec" destination="hGR-Lb-ocS" id="fAF-ht-5Q0"/>
-                        <outlet property="txtIUFeb" destination="5jc-zV-DRH" id="3HR-3P-Sbv"/>
-                        <outlet property="txtIUJan" destination="qrY-N7-vln" id="WmX-cU-zc5"/>
-                        <outlet property="txtIUJul" destination="8V1-rt-Xsx" id="rHT-NG-zOF"/>
-                        <outlet property="txtIUJun" destination="IIf-XK-HuB" id="NHc-sF-ALW"/>
-                        <outlet property="txtIUMar" destination="2ac-kw-q8l" id="tQc-O3-QeK"/>
-                        <outlet property="txtIUMay" destination="nmD-hY-dcY" id="w2d-qf-D5Z"/>
-                        <outlet property="txtIUNov" destination="hGR-Lb-ocS" id="sUX-3L-DKu"/>
-                        <outlet property="txtIUOct" destination="spm-mr-eam" id="hfr-uj-mG4"/>
-                        <outlet property="txtIUPayments" destination="Vvk-cy-3LC" id="zOU-HO-ND4"/>
-                        <outlet property="txtIURate" destination="f2g-M6-EQX" id="hLu-9J-YZq"/>
-                        <outlet property="txtIUSep" destination="Bog-6Z-0iD" id="Grs-rq-nFx"/>
-                        <outlet property="txtIUSource" destination="xJX-65-awv" id="cAr-kq-Hpp"/>
+                        <outlet property="btnIUCancel" destination="rhF-Ww-Xxu" id="WFZ-Zl-Wdw"/>
+                        <outlet property="btnIUSave" destination="gsx-Da-v6t" id="XyS-zk-2jr"/>
+                        <outlet property="btnSave" destination="gsx-Da-v6t" id="4Oc-R4-4rM"/>
+                        <outlet property="scrollview" destination="8J5-W5-7jA" id="9Ml-UI-tK5"/>
+                        <outlet property="txtIUApr" destination="cVy-eY-pTO" id="yfy-HA-0pZ"/>
+                        <outlet property="txtIUAug" destination="rZ4-kn-jC0" id="Rm4-9u-jTS"/>
+                        <outlet property="txtIUBalance" destination="g1S-kU-Rf0" id="bzq-ou-ATC"/>
+                        <outlet property="txtIUDec" destination="hGR-Lb-ocS" id="c8n-Hg-0af"/>
+                        <outlet property="txtIUFeb" destination="5jc-zV-DRH" id="8Fn-gz-6rc"/>
+                        <outlet property="txtIUJan" destination="qrY-N7-vln" id="2bT-CJ-pu3"/>
+                        <outlet property="txtIUJul" destination="8V1-rt-Xsx" id="to3-ih-pwT"/>
+                        <outlet property="txtIUJun" destination="IIf-XK-HuB" id="CO4-Uu-ydO"/>
+                        <outlet property="txtIUMar" destination="2ac-kw-q8l" id="ggx-f8-L8N"/>
+                        <outlet property="txtIUMay" destination="nmD-hY-dcY" id="7kj-tQ-Lah"/>
+                        <outlet property="txtIUNov" destination="iAu-kZ-vKC" id="kap-Yz-hSf"/>
+                        <outlet property="txtIUOct" destination="spm-mr-eam" id="hnv-Fm-ku1"/>
+                        <outlet property="txtIUPayments" destination="Vvk-cy-3LC" id="bFt-uk-IQH"/>
+                        <outlet property="txtIURate" destination="f2g-M6-EQX" id="K9x-8E-5EI"/>
+                        <outlet property="txtIUSep" destination="Bog-6Z-0iD" id="1eE-fo-9yh"/>
+                        <outlet property="txtIUSource" destination="xJX-65-awv" id="bFi-HJ-gmX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VJW-3Y-mOA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="420" y="-1175"/>
+            <point key="canvasLocation" x="204" y="-2583"/>
         </scene>
         <!--Interest Report Master View Controller - InterestReportMaster-->
         <scene sceneID="TJ3-To-qZo">
@@ -473,7 +517,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K1N-gO-luH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="39" y="-1175"/>
+            <point key="canvasLocation" x="-177" y="-2583"/>
         </scene>
         <!--Dividend Report Master View Controller - DividendReportMaster-->
         <scene sceneID="Rxi-od-GEW">
@@ -532,7 +576,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gz9-cf-rrs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="39" y="-507"/>
+            <point key="canvasLocation" x="-177" y="-1915"/>
         </scene>
         <!--Dividend Update View Controller - DividendUpdate-->
         <scene sceneID="xJm-eE-rAV">
@@ -564,15 +608,6 @@
                                         <color key="textColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="88G-hk-MrW" userLabel="txtDUMar">
-                                        <rect key="frame" x="94" y="220" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Sw9-68-Gwm" id="Ywt-pI-PE3"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="December" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJy-ee-gNT">
                                         <rect key="frame" x="177" y="323" width="80" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -601,33 +636,6 @@
                                         <color key="textColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TLm-AQ-5Wo" userLabel="txtDUMay">
-                                        <rect key="frame" x="93" y="286" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Sw9-68-Gwm" id="qyS-f6-LEm"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w0L-6s-SIj" userLabel="txtDUJan">
-                                        <rect key="frame" x="94" y="154" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Sw9-68-Gwm" id="YZ1-Q7-JmE"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RKi-Ya-gvl" userLabel="txtDUDec">
-                                        <rect key="frame" x="269" y="319" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Sw9-68-Gwm" id="bsv-pK-L0A"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shares" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zB9-AU-lzk">
                                         <rect key="frame" x="20" y="62" width="85" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -635,25 +643,6 @@
                                         <color key="textColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WjX-4h-EdM" userLabel="txtDUOct">
-                                        <rect key="frame" x="270" y="253" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Sw9-68-Gwm" id="qdq-HE-ick"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="88F-4n-Kwo" userLabel="txtDUShares">
-                                        <rect key="frame" x="182" y="58" width="118" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Sw9-68-Gwm" id="rP0-aJ-KcC"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter a 1 for each month in which a dividend is received." lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="VMy-Bf-TM8">
                                         <rect key="frame" x="20" y="96" width="280" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -661,16 +650,6 @@
                                         <color key="textColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x0q-Q9-qmi" userLabel="txtDUSymbol">
-                                        <rect key="frame" x="182" y="20" width="118" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Sw9-68-Gwm" id="Wvv-HG-BU0"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="September" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2G-Cg-mbz">
                                         <rect key="frame" x="177" y="224" width="85" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -678,24 +657,6 @@
                                         <color key="textColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Eg-y0-xOg" userLabel="txtDUApr">
-                                        <rect key="frame" x="94" y="253" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Sw9-68-Gwm" id="P2O-wf-aqX"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bmf-3H-fK4" userLabel="txtDUAug">
-                                        <rect key="frame" x="270" y="187" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Sw9-68-Gwm" id="vgj-vo-qqx"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stock Symbol" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYs-vy-m3k">
                                         <rect key="frame" x="20" y="24" width="154" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -717,15 +678,6 @@
                                         <color key="textColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NSP-1q-VIT" userLabel="txtDUJun">
-                                        <rect key="frame" x="93" y="319" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Sw9-68-Gwm" id="ry4-HK-Msq"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="July" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vp9-tj-R8U">
                                         <rect key="frame" x="177" y="158" width="31" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -733,24 +685,6 @@
                                         <color key="textColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HHb-2m-tEz" userLabel="txtDUFeb">
-                                        <rect key="frame" x="94" y="187" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Sw9-68-Gwm" id="ucT-We-oet"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yK6-Ur-TGa" userLabel="txtDUJul">
-                                        <rect key="frame" x="270" y="154" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Sw9-68-Gwm" id="K0p-SC-6dg"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="March" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwO-nP-5vE">
                                         <rect key="frame" x="21" y="224" width="49" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -758,24 +692,6 @@
                                         <color key="textColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="65u-pT-goB" userLabel="txtDUSep">
-                                        <rect key="frame" x="270" y="220" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Sw9-68-Gwm" id="5ux-QF-3HT"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NaC-xA-Sjt" userLabel="txtDUNov">
-                                        <rect key="frame" x="269" y="286" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Sw9-68-Gwm" id="LRV-ka-bOj"/>
-                                        </connections>
-                                    </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="May" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8f1-3n-TRM">
                                         <rect key="frame" x="20" y="290" width="33" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -783,7 +699,173 @@
                                         <color key="textColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e32-x4-Fm5">
+                                        <rect key="frame" x="1" y="0.0" width="319" height="369"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Eg-y0-xOg" userLabel="txtDUApr">
+                                                <rect key="frame" x="93" y="253" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEndOnExit" id="TI1-Ai-kYA"/>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEnd" id="yzi-KQ-16t"/>
+                                                    <outlet property="delegate" destination="Sw9-68-Gwm" id="gfv-LP-Ij0"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="65u-pT-goB" userLabel="txtDUSep">
+                                                <rect key="frame" x="269" y="220" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEndOnExit" id="Got-aO-XZu"/>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEnd" id="ilw-9B-Pb6"/>
+                                                    <outlet property="delegate" destination="Sw9-68-Gwm" id="cVf-Pu-dtm"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="88F-4n-Kwo" userLabel="txtDUShares">
+                                                <rect key="frame" x="181" y="58" width="118" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEnd" id="9FD-lE-Yvh"/>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEndOnExit" id="MqM-5L-Opv"/>
+                                                    <outlet property="delegate" destination="Sw9-68-Gwm" id="sgt-4P-m3x"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="88G-hk-MrW" userLabel="txtDUMar">
+                                                <rect key="frame" x="93" y="220" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEnd" id="Bdu-6E-lQN"/>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEndOnExit" id="bt0-FI-awp"/>
+                                                    <outlet property="delegate" destination="Sw9-68-Gwm" id="FQY-rG-f1g"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HHb-2m-tEz" userLabel="txtDUFeb">
+                                                <rect key="frame" x="93" y="187" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEndOnExit" id="Iuu-XR-zqE"/>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEnd" id="X4R-jY-80M"/>
+                                                    <outlet property="delegate" destination="Sw9-68-Gwm" id="JxZ-uu-69g"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NSP-1q-VIT" userLabel="txtDUJun">
+                                                <rect key="frame" x="92" y="319" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEndOnExit" id="0Ah-gH-xy5"/>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEnd" id="L2z-C4-L7V"/>
+                                                    <outlet property="delegate" destination="Sw9-68-Gwm" id="kQx-4Z-hTN"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NaC-xA-Sjt" userLabel="txtDUNov">
+                                                <rect key="frame" x="268" y="286" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEnd" id="GXh-Nc-kPf"/>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEndOnExit" id="WII-wn-4vE"/>
+                                                    <outlet property="delegate" destination="Sw9-68-Gwm" id="O2y-f7-MaF"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RKi-Ya-gvl" userLabel="txtDUDec">
+                                                <rect key="frame" x="268" y="319" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEnd" id="3Ha-i5-q5L"/>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEndOnExit" id="tsX-lQ-PqS"/>
+                                                    <outlet property="delegate" destination="Sw9-68-Gwm" id="mG1-mX-y2q"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TLm-AQ-5Wo" userLabel="txtDUMay">
+                                                <rect key="frame" x="92" y="286" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEndOnExit" id="QLC-Rn-lqZ"/>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEnd" id="j9Z-Pb-5CP"/>
+                                                    <outlet property="delegate" destination="Sw9-68-Gwm" id="zqM-Jh-eIi"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WjX-4h-EdM" userLabel="txtDUOct">
+                                                <rect key="frame" x="269" y="253" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEnd" id="eFN-Iv-G2W"/>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEndOnExit" id="p60-Xa-aZW"/>
+                                                    <outlet property="delegate" destination="Sw9-68-Gwm" id="8pr-RJ-jLh"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w0L-6s-SIj" userLabel="txtDUJan">
+                                                <rect key="frame" x="93" y="154" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEnd" id="lrD-jc-52j"/>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEndOnExit" id="uR3-jg-1cR"/>
+                                                    <outlet property="delegate" destination="Sw9-68-Gwm" id="o26-S8-QsL"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x0q-Q9-qmi" userLabel="txtDUSymbol">
+                                                <rect key="frame" x="181" y="20" width="118" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEndOnExit" id="LrV-8G-dfx"/>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEnd" id="RAu-UQ-VKW"/>
+                                                    <outlet property="delegate" destination="Sw9-68-Gwm" id="m7t-Nk-I82"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bmf-3H-fK4" userLabel="txtDUAug">
+                                                <rect key="frame" x="269" y="187" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEndOnExit" id="ObO-jE-rGU"/>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEnd" id="jip-11-47Q"/>
+                                                    <outlet property="delegate" destination="Sw9-68-Gwm" id="wBS-nY-8kc"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yK6-Ur-TGa" userLabel="txtDUJul">
+                                                <rect key="frame" x="269" y="154" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEnd" id="a5N-Ob-4or"/>
+                                                    <action selector="doneEditing:" destination="Sw9-68-Gwm" eventType="editingDidEndOnExit" id="l66-7x-vmE"/>
+                                                    <outlet property="delegate" destination="Sw9-68-Gwm" id="DOp-Zi-P1a"/>
+                                                </connections>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="1" green="1" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </scrollView>
                                 </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U2F-ym-99e">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
@@ -797,11 +879,13 @@
                                     <navigationItem title="Dividend Update" id="LPQ-sr-4B0">
                                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="6rS-eJ-FK6" userLabel="btnDUCancel">
                                             <connections>
+                                                <action selector="btnDUCancle:" destination="Sw9-68-Gwm" id="4AJ-fE-8bY"/>
                                                 <segue destination="L6x-js-Szp" kind="modal" id="t44-ym-Lzs"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="m93-vZ-Ani" userLabel="btnDUSave">
                                             <connections>
+                                                <action selector="btnDUSave:" destination="Sw9-68-Gwm" id="m4d-YB-NNG"/>
                                                 <segue destination="L6x-js-Szp" kind="modal" id="cF4-S4-ngr"/>
                                             </connections>
                                         </barButtonItem>
@@ -809,12 +893,30 @@
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="btnDUSave" destination="m93-vZ-Ani" id="02L-KY-svf"/>
+                        <outlet property="scrollview" destination="e32-x4-Fm5" id="vfQ-YT-wjw"/>
+                        <outlet property="txtDUApr" destination="0Eg-y0-xOg" id="O0t-3u-Geb"/>
+                        <outlet property="txtDUAug" destination="Bmf-3H-fK4" id="LVA-nh-uSg"/>
+                        <outlet property="txtDUDec" destination="RKi-Ya-gvl" id="JiK-rc-RXd"/>
+                        <outlet property="txtDUFeb" destination="HHb-2m-tEz" id="cRf-8j-FUn"/>
+                        <outlet property="txtDUJan" destination="w0L-6s-SIj" id="UES-HS-UWN"/>
+                        <outlet property="txtDUJul" destination="yK6-Ur-TGa" id="5Dx-Dp-QXe"/>
+                        <outlet property="txtDUJun" destination="NSP-1q-VIT" id="5RR-lL-L0R"/>
+                        <outlet property="txtDUMar" destination="88G-hk-MrW" id="eLF-Q0-poz"/>
+                        <outlet property="txtDUMay" destination="TLm-AQ-5Wo" id="VMJ-kB-JMv"/>
+                        <outlet property="txtDUNov" destination="NaC-xA-Sjt" id="U05-bH-8fH"/>
+                        <outlet property="txtDUOct" destination="WjX-4h-EdM" id="6ml-1E-q7e"/>
+                        <outlet property="txtDUSep" destination="65u-pT-goB" id="PyO-Ph-5mK"/>
+                        <outlet property="txtDUShares" destination="88F-4n-Kwo" id="1Bm-vy-1RW"/>
+                        <outlet property="txtDUSymbol" destination="x0q-Q9-qmi" id="0ym-Xa-pOE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uth-Bs-wRW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="420" y="-507"/>
+            <point key="canvasLocation" x="204" y="-1915"/>
         </scene>
         <!--Intructions View Controller - Instructions-->
         <scene sceneID="bpb-Of-5SU">
@@ -855,7 +957,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eUw-xR-bl0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-723" y="-507"/>
+            <point key="canvasLocation" x="-939" y="-1915"/>
         </scene>
         <!--Summary View Controller - Summary-->
         <scene sceneID="1l1-V7-2GG">
@@ -1069,7 +1171,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w6o-wg-gG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-723" y="-1175"/>
+            <point key="canvasLocation" x="-939" y="-2583"/>
         </scene>
         <!--Fixed Report Master View Controller - FixedReportMaster-->
         <scene sceneID="ot6-uo-xZd">
@@ -1131,7 +1233,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rj8-S0-gb6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="39" y="-1842"/>
+            <point key="canvasLocation" x="-177" y="-3250"/>
         </scene>
         <!--Fixed Updates View Controller - FixedUpdate-->
         <scene sceneID="X6L-md-erI">
@@ -1412,6 +1514,7 @@
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="delegate" destination="ZfG-W9-6JB" id="cqX-DF-Kwc"/>
                                 </connections>
@@ -1428,7 +1531,7 @@
                                     <navigationItem title="Fixed Update" id="3Rx-xE-IdK">
                                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="BPW-78-3LL" userLabel="btnFUCancel">
                                             <connections>
-                                                <action selector="btnCancel:" destination="ZfG-W9-6JB" id="HKV-Ws-YV2"/>
+                                                <action selector="btnFUCancle:" destination="ZfG-W9-6JB" id="SKd-qU-XBk"/>
                                                 <segue destination="7NW-U9-VJa" kind="modal" id="F4q-RG-es8"/>
                                             </connections>
                                         </barButtonItem>
@@ -1442,10 +1545,11 @@
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="btnSave" destination="akJ-Dw-d1x" id="77o-Ks-u69"/>
+                        <outlet property="btnFUSave" destination="akJ-Dw-d1x" id="lrp-Pn-B2V"/>
+                        <outlet property="btnSave" destination="akJ-Dw-d1x" id="G6k-Ay-DxI"/>
                         <outlet property="scrollview" destination="k5A-xI-9VV" id="fxN-Et-Zxp"/>
                         <outlet property="txtFUAmount" destination="9ac-Im-9bi" id="ySM-Ka-VFE"/>
                         <outlet property="txtFUApr" destination="DDi-5c-eF4" id="pOm-AH-1gg"/>
@@ -1460,13 +1564,13 @@
                         <outlet property="txtFUNov" destination="Fsi-3y-DKn" id="YvI-iH-zwp"/>
                         <outlet property="txtFUOct" destination="51S-Ge-nuv" id="NXq-ya-gLl"/>
                         <outlet property="txtFUSep" destination="FgR-m5-RCV" id="HmL-2Z-fg5"/>
-                        <outlet property="txtFUSource" destination="A6k-cD-aII" id="GuN-dZ-4wj"/>
+                        <outlet property="txtFUSource" destination="A6k-cD-aII" id="CLq-qN-JuC"/>
                         <outlet property="txtFuSource" destination="A6k-cD-aII" id="kJj-V3-CIP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hOh-ng-1eX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="420" y="-1842"/>
+            <point key="canvasLocation" x="204" y="-3250"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="v9c-gl-TGf">
@@ -1484,7 +1588,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gnG-5d-uzM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-347" y="-1842"/>
+            <point key="canvasLocation" x="-563" y="-3250"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YTo-uL-ZHA">
@@ -1502,7 +1606,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eRx-5W-9UZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-347" y="-507"/>
+            <point key="canvasLocation" x="-563" y="-1915"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RJT-nz-BaO">
@@ -1520,7 +1624,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wrE-Wk-9hZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-347" y="-1175"/>
+            <point key="canvasLocation" x="-563" y="-2583"/>
         </scene>
     </scenes>
     <resources>
@@ -1535,12 +1639,12 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="clq-ua-ZGR"/>
-        <segue reference="G8t-0q-tE5"/>
-        <segue reference="teH-E0-WJ9"/>
-        <segue reference="OJM-0o-eOP"/>
-        <segue reference="Ihv-H7-wNq"/>
+        <segue reference="o0z-m9-XAV"/>
         <segue reference="t44-ym-Lzs"/>
-        <segue reference="87h-9O-Oc2"/>
+        <segue reference="G8t-0q-tE5"/>
+        <segue reference="xsN-Er-taI"/>
+        <segue reference="9Mj-jO-gbt"/>
+        <segue reference="F4q-RG-es8"/>
+        <segue reference="GkE-MC-2Lo"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -9,22 +9,28 @@
 #import <UIKit/UIKit.h>
 
 @interface InterestUpdateViewController : UIViewController
+@property (strong) NSManagedObject *loandb;
 
-@property (weak, nonatomic) IBOutlet UITextField *txtIUSource;
-@property (weak, nonatomic) IBOutlet UITextField *txtIUPayments;
-@property (weak, nonatomic) IBOutlet UITextField *txtIUBalance;
-@property (weak, nonatomic) IBOutlet UITextField *txtIURate;
-@property (weak, nonatomic) IBOutlet UITextField *txtIUJan;
-@property (weak, nonatomic) IBOutlet UITextField *txtIUFeb;
-@property (weak, nonatomic) IBOutlet UITextField *txtIUMar;
-@property (weak, nonatomic) IBOutlet UITextField *txtIUApr;
-@property (weak, nonatomic) IBOutlet UITextField *txtIUMay;
-@property (weak, nonatomic) IBOutlet UITextField *txtIUJun;
-@property (weak, nonatomic) IBOutlet UITextField *txtIUJul;
-@property (weak, nonatomic) IBOutlet UITextField *txtIUAug;
-@property (weak, nonatomic) IBOutlet UITextField *txtIUSep;
-@property (weak, nonatomic) IBOutlet UITextField *txtIUOct;
-@property (weak, nonatomic) IBOutlet UITextField *txtIUNov;
-@property (weak, nonatomic) IBOutlet UITextField *txtIUDec;
+- (IBAction)btnSave:(id)sender;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *btnSave;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUSource;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUPayments;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUBalance;
+@property (strong, nonatomic) IBOutlet UITextField *txtIURate;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUJan;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUFeb;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUMar;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUApr;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUMay;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUJun;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUJul;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUAug;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUSep;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUOct;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUNov;
+@property (strong, nonatomic) IBOutlet UITextField *txtIUDec;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *btnIUCancel;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollview;
+-(IBAction) doneEditing:(id)sender;
 
 @end
